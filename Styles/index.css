@@ -1,0 +1,96 @@
+/* start landing page*/
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1200px;
+    background-color: #DBDF88;
+    }
+/* top meny*/
+.div-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    list-style-type: none;
+}
+.ul-menu {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: 20px;
+    font: ;
+    font-size: ;
+}
+li {
+    margin-left: 20px;
+}
+a:link { 
+    text-decoration: none; 
+}
+a:visited { 
+    text-decoration: none; 
+}
+a:active { 
+    text-decoration: none; 
+}
+/*heading*/
+.heading {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+/* Logosection- left side */
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+    max-height: 700px;
+}
+.h1 {
+    display: flex;
+    justify-content: flex-start;
+    font: ;
+    font-size: 64;
+    margin-top: 20px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 97px;
+    height: 48px;
+    color: #000000;
+    background-color: #82CE42;
+    margin-top: 20px;
+    border: none;
+    border-radius:;
+    font:;
+    font-size: 18px;
+}
+.btn:hover{
+    transform: scale(1.5);
+    background-color: ;
+}
+/* Right section */
+.right-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    margin-left: 20px;
+}
+h2 {
+
+}
+img {
+
+}
+/* end landingpage*/
+
