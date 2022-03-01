@@ -6,23 +6,14 @@ body{
     flex-direction: column;
     background-color: #DBDF88;
 }
-.landing-container {
-    display: flex; 
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column; 
-    max-width: 1200px;
-}
+
 /* top meny*/
-.div-menu {
-    display: flex;
-    justify-content: flex-end;
-}
 .nav {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     flex-direction: row;
     list-style-type: none;
+    width: 1100px;
 }
 .ul-menu {
     display: flex;
@@ -52,9 +43,16 @@ a:active {
     text-decoration: none; 
 }
 /*top container*/
+.landing-container {
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column; 
+    max-width: 1200px;
+}
 .top-container {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: row;
     max-width: 1200px;
 }
@@ -76,7 +74,7 @@ a:active {
     height: 173px;
     opacity: 0,2;
 }
-.h1 {
+h1 {
     display: flex;
     justify-content: flex-start;
     font-family: 'Cinzel Decorative';
@@ -104,7 +102,7 @@ a:active {
 /* Right section */
 .right-section {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* why dont this work*/
     align-items: center;
     flex-direction: column;
     max-width: 700px;
