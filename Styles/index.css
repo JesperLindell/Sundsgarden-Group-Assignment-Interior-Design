@@ -31,7 +31,7 @@ li {
     margin-left: 20px;
     }
 li:hover {
-    transform: scale(1,5);
+    transform: scale(1.2);
 }
 a:link { 
     text-decoration: none; 
@@ -96,8 +96,7 @@ h1 {
     font-size: 18px;
 }
 .btn:hover{
-    transform: scale(1.5);
-    background-color: ;
+    transform: scale(1.2);
 }
 /* Right section */
 .right-section {
@@ -164,6 +163,5 @@ p {
     width: 400px;
     margin: 20px;
 }
-
 /* end landingpage*/
 
