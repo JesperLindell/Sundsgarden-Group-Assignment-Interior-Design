@@ -11,17 +11,43 @@
 </head>
 <body>
 <!--Header-->
-    <nav class="nav">
-        <ul class="ul-menu">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../pages/about_us.html">About Us</a></li>
-            <li><a href="../pages/products.html">Our Product</a></li>
-            <li><a href="../pages/gallery.html">Gallery</a></li>
-            <li><a href="../pages/contact.html">Contact Us</a></li>
-        </ul>
-    </nav>
-    <div class="landing-container">
-        <!--start top container-->
+    <header>
+        <nav class="nav">
+            <ul class="ul-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/about_us.html">About Us</a></li>
+                <li><a href="../pages/products.html">Our Product</a></li>
+                <li><a href="../pages/gallery.html">Gallery</a></li>
+                <li><a href="../pages/contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-contact">
+        <form class="form" autocomplete="off">
+            <label for="title" class="label-title"></label>
+            <h1 class="title">Contact Us</h1>
+
+            <label for="family name" class="label">Family Name</label>
+            <input type="text" name="family name" id="family name"  class="text-input" placeholder="Enter your  family name">
+            <label for="first name" class="label">First Name</label>
+            <input type="text" name="first name" id="first name"  class="text-input"  placeholder="Enter your first name">
+            <label for="age" class="label">Age</label>
+            <input type="text" name="age" id="age"  class="text-input"  placeholder="Enter your age">
+            <label for="phone" class="label">Phone</label>
+            <input type="text" name="phone" id="phone"  class="text-input"  placeholder="Enter your phone number including country code">
+            <label for="email" class="label">Email</label>
+            <input type="email" name="email" id="email"  class="text-input"  placeholder="Enter your email adress" required autofocus>
+            
+            <label for="message"class="label"> Message </label>
+            <textarea name="message" id="message" cols="10" rows="5" class="textarea" placeholder="Enter your message"></textarea>
+        
+        </form>
+        <button class="submit" disabled type="submit">Submit</button>
+        <div class="landing-container">
+
+    </main>
+        <!--start top container-->Cont
         <div class="top-container">
             <!--Heading-->
             <div class="heading">

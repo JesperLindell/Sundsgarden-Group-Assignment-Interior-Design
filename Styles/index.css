@@ -1,19 +1,21 @@
 /* start landing page*/
-body{
+body {
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    max-width: 1200px;
     background-color: #DBDF88;
-}
-
+    }
 /* top meny*/
-.nav {
+.div-menu {
     display: flex;
     justify-content: flex-end;
+}
+.nav {
+    display: flex;
+    justify-content: flex-start;
     flex-direction: row;
     list-style-type: none;
-    width: 1100px;
 }
 .ul-menu {
     display: flex;
@@ -21,17 +23,11 @@ body{
     flex-direction: row;
     list-style-type: none;
     margin-left: 20px;
-    font-family: 'Roboto', sans-serif;;
-    font-size: 24px;
-}
-a {
-    color: #000000;
+    font: ;
+    font-size: ;
 }
 li {
     margin-left: 20px;
-    }
-li:hover {
-    transform: scale(1,5);
 }
 a:link { 
     text-decoration: none; 
@@ -42,25 +38,13 @@ a:visited {
 a:active { 
     text-decoration: none; 
 }
-/*top container*/
-.landing-container {
-    display: flex; 
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column; 
-    max-width: 1200px;
-}
-.top-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    max-width: 1200px;
-}
+/*heading*/
 .heading {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
+/* Logosection- left side */
 .logo-section {
     display: flex;
     justify-content: center;
@@ -69,17 +53,11 @@ a:active {
     max-width: 400px;
     max-height: 700px;
 }
-.croc-img {
-    width: 347px;
-    height: 173px;
-    opacity: 0,2;
-}
-h1 {
+.h1 {
     display: flex;
     justify-content: flex-start;
-    font-family: 'Cinzel Decorative';
-    font-style: italic;
-    font-size: 64px;
+    font: ;
+    font-size: 64;
     margin-top: 20px;
 }
 .btn {
@@ -89,10 +67,11 @@ h1 {
     width: 97px;
     height: 48px;
     color: #000000;
-    background-color: #DBDF88;
+    background-color: #82CE42;
     margin-top: 20px;
     border: none;
-    font-family: 'Roboto', sans-serif;;
+    border-radius:;
+    font:;
     font-size: 18px;
 }
 .btn:hover{
@@ -102,73 +81,175 @@ h1 {
 /* Right section */
 .right-section {
     display: flex;
-    justify-content: center; /* why dont this work*/
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
     max-width: 700px;
     margin-left: 20px;
 }
 h2 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 26px;
-    margin: 20px;
-}
-.img3 {
-width: 702px;
-height: 505px;
-margin: 20px;
-}
-p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    margin: 20px;
-}
-/*bottom container*/
-.bottom-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 20px;
-    max-width: 1200px;
-}
-.section-tree {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 20px;
-}
-.section-four {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 20px;
-}
-.section-five {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 20px;
-}
-.img4 {
-    width: 400px;
-    margin: 20px;
-}
-.img5 {
-    width: 400px;
-    margin: 20px;
-}
-.img6 {
-    width: 400px;
-    margin: 20px;
-}
 
+}
+img {
+
+}
 /* end landingpage*/
 
 /* start contact page*/
 
 
+.main-contact {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+	background-image:url(../images/hiclipart\ 2.png);
+    
+    background-position: center;
+	min-height: 100vh;
+}
+
+.form {
+	box-sizing: border-box;
+	width: 40%;
+	min-height: 560px;
+    padding: 20px;
+    background-color: #24c06a  ;  
+	opacity: .95;
+	border: 2px rgb(73, 103, 148);
+	border-radius: 4px;
+	box-shadow: 0px 3px 4px #050000;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+    justify-content: center;
+    font-family: 'poppins',
+}
+
+.title  {
+
+    text-align: center;
+	padding-top: 10px;
+	margin-top: -4px;
+    border: 2px rgb(73, 103, 148);
+	border-radius: 4px;
+	background-color: #35f3e3b3;
+    color: rgb(11, 52, 112);
+	box-shadow: 0px 3px 4px #050000;
+	cursor: default;
+	font-size: 30px;
+	font-family:'poppins';
+	text-shadow: 0px 2px 4px;
+}
+
+.label-title{
+	display: block;
+	background-color: rgb(73, 103, 148);
+	padding:10px;
+	box-sizing: border-box;
+	box-shadow: 0px 1px 2px #050000;
+	border-radius: 4px;
+	position: relative;
+	bottom: -2px;
+	z-index: 1;
+	width: 100%;
+	height: 25px
+	
+	
+}
+
+.label {
+	display: block;
+	font-size: 12px;
+	box-sizing: border-box;
+	position: relative;
+	bottom: -2px;
+	z-index: 1;
+	width: 100%;
+	height: max-content;
+	background-color: rgb(73, 103, 148);
+	padding: 5px 5px 5px 10px;
+	color: #222222;
+	cursor: text;
+	box-shadow: 0px 1px 2px #050000;
+	border-radius: 4px;
+	
+}
+
+.text-input{ 
+	box-sizing: border-box;
+	width: 100%;
+	min-height: min-content;
+	position: relative;
+	z-index: 0;
+	top: -4px;
+	min-height: 26px;
+	margin-bottom: 10px;
+	border: 2px rgb(73, 103, 148);
+	background-color: #35f3e3b3;
+	box-shadow: 0px 3px 4px #050000;
+	border-radius: 4px;
+	padding: 10px 0px 5px 10px;
+	transition: ease-in-out 2s;
+    font-size: 14px;
+	opacity: 1;
+
+}
+
+
+.textarea {
+	
+	width: 98%;
+	border-radius: 4px;
+	margin-top: -2px;
+    margin-right: 20px;
+	z-index: 0;
+	background-color: #35f3e3b3;
+	border: none;
+	box-shadow: 0px 3px 4px #050000;
+	padding: 10px 0px 0px 10px;
+	box-shadow: 0px 3px 4px #050000;
+    resize: none;
+    font-size: 14px;
+	font-family: 'poppins',
+    
+	
+}
+
+.text-input::placeholder, .textarea::placeholder {
+	color:rgb(73, 103, 148);
+	
+}
+
+
+.submit {
+	justify-self: unset;top: 500px;
+	transition: ease-in-out 2s;
+	width: 40%;
+	height: 36px;
+	box-sizing: border-box;
+	margin: 25px;
+	border-radius: 4px;
+	border: 2px;
+	border-color: rgb(73, 103, 148);
+	background-color: #24c06a;
+	color: #09110d;
+	box-shadow: 0px 3px 4px #000000;
+	font-size: 14px;
+	font-style: bold;
+	opacity: .95;
+	cursor: pointer
+	
+
+}
+
+.text-input:focus, .textarea:focus, .button:focus {
+	outline: none;
+}
+
+.text-input:hover, .textarea:hover, .submit:hover{
+	background-color: rgb(4, 235, 235);
+	transition: ease-in-out 2s;
+}
 
 /* end contact page */
