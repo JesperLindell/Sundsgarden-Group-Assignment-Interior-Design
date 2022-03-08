@@ -10,53 +10,113 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    
 <!--Header-->
-    <header>
-        <nav class="nav">
-            <ul class="ul-menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/about_us.html">About Us</a></li>
-                <li><a href="../pages/products.html">Our Product</a></li>
-                <li><a href="../pages/gallery.html">Gallery</a></li>
-                <li><a href="../pages/contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <nav class="nav">
+        <ul class="ul-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Pages/about_us.html">About Us</a></li>
+            <li><a href="../Pages/products.html">Our Product</a></li>
+            <li><a href="../Pages/gallery.html">Gallery</a></li>
+            <li><a href="../Pages/contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
 
-    <main class="main-contact">
-        <form class="form" autocomplete="off">
-            <label for="title" class="label-title"></label>
-            <h1 class="title">Contact Us</h1>
-
-            <label for="family name" class="label">Family Name</label>
-            <input type="text" name="family name" id="family name"  class="text-input" placeholder="Enter your  family name">
-            <label for="first name" class="label">First Name</label>
-            <input type="text" name="first name" id="first name"  class="text-input"  placeholder="Enter your first name">
-            <label for="age" class="label">Age</label>
-            <input type="text" name="age" id="age"  class="text-input"  placeholder="Enter your age">
-            <label for="phone" class="label">Phone</label>
-            <input type="text" name="phone" id="phone"  class="text-input"  placeholder="Enter your phone number including country code">
-            <label for="email" class="label">Email</label>
-            <input type="email" name="email" id="email"  class="text-input"  placeholder="Enter your email adress" required autofocus>
-            
-            <label for="message"class="label"> Message </label>
-            <textarea name="message" id="message" cols="10" rows="5" class="textarea" placeholder="Enter your message"></textarea>
-        
-        </form>
-        <button class="submit" disabled type="submit">Submit</button>
-        <div class="landing-container">
-
-    </main>
-        <!--start top container-->
-        <div class="top-container">
-
-            <div class="heading">
-                <div class="logo-section">
-                    <!--<img src="images/crocodile.png" class="croc-img" alt="Crocodile" title="Crocodile">-->
-                    <h1>Crocodile Interior</h1>
-                    <button href="#" class="btn"><p>Contact Us</p></button>
-                </div>
+<main class="main-contact">
+    <!--start top container-->
+    <div class="top-container">
+        <!--Heading-->
+        <div class="heading">
+            <div class="logo-section">
+                <img src="../images/crocodile-svgrepo-com.svg" class="croc-img" alt="Crocodile" title="Crocodile">
+                <h1>Crocodile Interior</h1>
             </div>
+        </div>
+    </div>
+        <!--End heading-->
+
+        <!-- Left section -->
+        <div class="contact-left">
+
+      
+            <form class="form" autocomplete="off">
+                
+                <!-- <label for="title" class="label-title"></label>
+                <h2 class="title">Contact Us</h2> -->
+
+        
+                <div style="background-image: url(../Images/img50.jpeg)" class="contact-img">
+                    <div class="contact-title">
+                        <h2>Contact  Us</h2>
+                    </div>
+                </div>
+
+                <label for="family name" class="label">Family Name</label>
+                <input type="text" name="family name" id="family name"  class="text-input" placeholder="Enter your  family name">
+                <label for="first name" class="label">First Name</label>
+                <input type="text" name="first name" id="first name"  class="text-input"  placeholder="Enter your first name">
+                <!-- <label for="age" class="label">Age</label>
+                <input type="text" name="age" id="age"  class="text-input"  placeholder="Enter your age"> -->
+                <label for="phone" class="label">Phone</label>
+                <input type="text" name="phone" id="phone"  class="text-input"  placeholder="Enter your phone number including country code">
+                <label for="email" class="label">Email</label>
+                <input type="email" name="email" id="email"  class="text-input"  placeholder="Enter your email adress" required autofocus>
+                
+                <label for="message"class="label"> Message </label>
+                <textarea name="message" id="message" cols="10" rows="5" class="textarea" placeholder="Enter your message"></textarea>
+                <input type="checkbox" name="accept" value="1" aria-invalid="false" class="checkbox"> 
+                <p class="checkbox-text-area">Accept our <span><a href="#" target="_blank">terms of use</a></p></span>
+                <button class="submit" disabled type="submit">Submit</button>
+            </form>
+
+        </div> 
+
+         <!-- End left section -->
+
+        <!-- Center section -->
+       
+     <div class="contact-center">
+        <div class="text-center">
+            <img class="ap-icons" src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://www.aeroportoparque.com/wp-content/uploads/2018/07/contact.png" alt="">
+            <h3 class="ap-title-servicos">Contact</h3>
+            <p>+46-31-228989 <br>info@crocodile-interor.com</p>
+        </div>
+        <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4 text-center"> 
+            <img class="ap-icons" src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://www.aeroportoparque.com/wp-content/uploads/2018/07/gps.png" alt="">
+            <h3 class="ap-title-servicos">Directions</h3>
+            <p>Haganygatan 35 <br> 411 22 Göteborg</p>
+        </div>
+        <div class="col-lg-4 col-xs-4 col-md-4 col-sm-4 text-center"> 
+            <img class="ap-icons" src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://www.aeroportoparque.com/wp-content/uploads/2018/07/morada.png" alt="">
+            <h3 class="ap-title-servicos">Cordinats GPS</h3>
+            <p>57.69834487 N <br> 11.960349069 W</p> 
+        </div>
+    </div>   
+    
+    <!-- End center section -->
+
+    <!-- Right section -->
+                
+    <div class="map">   
+        <div class="mapouter">
+            <div class="gmap_canvas">
+            <iframe max-width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=haganygata%2035%20g%C3%B6teborg&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            <a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;max-height:400px;width:400px;}</style><a href="https://www.embedgooglemap.net">google maps on your website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+            </div>                                                   
+        </div>
+    </div> 
+                               
+                  
+       
+      
+                                            
+                      
+</main>
            
-</body>
+
+
+    
+                                           
 </html> 
