@@ -4,11 +4,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="Styles/normalize.css">
+    <link rel="stylesheet" href="../Styles/index.css">
     <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     
-</body>
-</html>
+<!--Header-->
+<header>
+    <nav class="nav">
+        <ul class="ul-menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Pages/about_us.html">About Us</a></li>
+            <li><a href="../Pages/products.html">Our Product</a></li>
+            <li><a href="../Pages/gallery.html">Gallery</a></li>
+            <li><a href="../Pages/contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main-contact">
+    <!--start top container-->
+    <div class="logo-container">
+        <!--Heading-->
+        <div class="heading">
+            <div class="logo-section">
+                <img src="../images/crocodile-svgrepo-com.svg" class="croc-img" alt="Crocodile" title="Crocodile">
+                <h1>Crocodile Interior</h1>
+            </div>
+        </div>
+    </div>
+        <!--End heading-->
+
+     <div class="contact-container">
+
+        <!-- Left section -->
+        <div class="contact-left">
+
+      
+            <form class="form" autocomplete="off">
+                
+                <!-- <label for="title" class="label-title"></label>
+                <h2 class="title">Contact Us</h2> -->
+
+        
+                <div style="background-image: url(../Images/img50.jpeg)" class="contact-img">
+                    <div class="contact-title">
+                        <h2>Contact  Us</h2>
+                    </div>
+                </div>
+
+                <label for="family name" class="label">Family Name</label>
+                <input type="text" name="family name" id="family name"  class="text-input" placeholder="Enter your  family name">
+                <label for="first name" class="label">First Name</label>
+                <input type="text" name="first name" id="first name"  class="text-input"  placeholder="Enter your first name">
+                <!-- <label for="age" class="label">Age</label>
+                <input type="text" name="age" id="age"  class="text-input"  placeholder="Enter your age"> -->
+                <label for="phone" class="label">Phone</label>
+                <input type="text" name="phone" id="phone"  class="text-input"  placeholder="Enter your phone number including country code">
+                <label for="email" class="label">Email</label>
+                <input type="email" name="email" id="email"  class="text-input"  placeholder="Enter your email adress" >
+                
+                <label for="message"class="label"> Message </label>
+                <textarea name="message" id="message" cols="10" rows="5" class="textarea" placeholder="Enter your message"></textarea>
+                <input type="checkbox" name="accept" value="1" aria-invalid="false" class="checkbox"> 
+                <p class="checkbox-text-area">Accept our <span><a href="#" target="_blank">terms of use</a></p></span>
+                <button class="submit" disabled type="submit">Submit</button>
+            </form>
+
+        </div> 
+
+            <!-- End left section -->
+
+            <!-- Center section -->
+        
+        <div class="contact-center">
+
+            <div class="text-center">
+                <img class="icons" src="../Images/contact.png" alt="Mail and Phone icon">
+                <h3 class="icon-text">Contact</h3>
+                <p>+46-31-228989 <br>info@crocodile-interor.com</p>
+            </div>
+            <div class="text-center"> 
+                <img class="icons" src="../Images/adress.png" alt="Direction Icon">
+                <h3 class="icon-text">Directions</h3>
+                <p>Haganygatan 35 <br> 411 22 Göteborg</p>
+            </div>
+            <div class="text-center"> 
+                <img class="icons" src="../Images/gps.png" alt="GPS Icon">
+                <h3 class="icon-text">Cordinats GPS</h3>
+                <p>57.69834487 N <br> 11.960349069 W</p> 
+            </div>
+        </div>   
+        
+        <!-- End center section -->
+
+        <!-- Right section -->
+                    
+        <div class="map">   
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                <!-- <iframe max-width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=haganygata%2035%20g%C3%B6teborg&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                <a href="https://123movies-to.org">123movies</a><br><style>.mapouter{position:relative;text-align:right;max-height:400px;width:400px;}</style><a href="https://www.embedgooglemap.net">google maps on your website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style> -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2104.5363081350633!2d11.958284084288326!3d57.698342884632744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff3695eeea401%3A0x7036e285edb9a247!2sHaga%20Nygata%2035%2C%20411%2022%20G%C3%B6teborg%2C%20Sverige!5e0!3m2!1ssv!2sus!4v1646790737005!5m2!1ssv!2sus" width="460" height="650" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>                                                   
+            </div>
+            <div class="map-text">
+                <h4>We are really looking foreward to hear from you soon <br>
+                    <div class="crocodile-text" > Crocodile <br> Interior
+                    </div>
+                </h4>
+            </div>
+        </div>
+                                
+                  
+    </div>     
+      
+                                    
+                      
+</main>
+           
+
+
+    
+                                           
+</html> 
