@@ -463,12 +463,12 @@ svg {
     flex-direction: row;
     list-style-type: none;
     width: 100%;
-    font-size: 10px;
-	font-family:  'Roboto', sans-serif;
+    
 
 }
 
 .ul-menu-foot {
+    margin-left: -15px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
